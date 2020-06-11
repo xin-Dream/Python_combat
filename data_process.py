@@ -4,6 +4,8 @@ import random
 
 import pandas as pd
 
+from pandas import Series,DataFrame
+
 if __name__ == '__main__':
     #数组
     # a = [1, 2, 3, 4, 5, 6]
@@ -20,7 +22,7 @@ if __name__ == '__main__':
     # print(np.random.randint(5, 10))
     # print(np.random.rand(4, 4) * 100)
 
-    #矩阵
+    # 矩阵
     x = np.matrix([[1, 2, 3], [4, 5, 6]])
     print(x)
     print(x.T)
@@ -43,6 +45,8 @@ if __name__ == '__main__':
     print(pd.Series([11, 12], index=["北京", "上海"]))
     print(pd.Series((4, 9)))
     
+    # pandas常用方法
+
     
     
     
